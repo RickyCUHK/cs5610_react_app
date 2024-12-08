@@ -2,7 +2,7 @@ import axios from "axios";
 import axiosRetry from "axios-retry";
 
 const apiClient = axios.create({
-  baseURL: "https://nc-news-voyg.onrender.com",
+  baseURL: "https://cs5610-backend-32p7.onrender.com",
   timeout: 30000,
 });
 
