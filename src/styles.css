@@ -959,6 +959,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-brand-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 16 46 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
@@ -1163,12 +1168,12 @@ video {
 
 .text-brand-primary {
   --tw-text-opacity: 1;
-  color: rgb(0 38 66 / var(--tw-text-opacity, 1));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-brand-secondary {
   --tw-text-opacity: 1;
-  color: rgb(132 0 50 / var(--tw-text-opacity, 1));
+  color: rgb(200 16 46 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-200 {
@@ -1252,7 +1257,7 @@ h5 {
 
 .login-button:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 149 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(200 16 46 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
@@ -1263,21 +1268,21 @@ h5 {
 
 .hover\:bg-brand-tertiary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 149 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(200 16 46 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:to-brand-secondary:hover {
-  --tw-gradient-to: #840032 var(--tw-gradient-to-position);
+  --tw-gradient-to: #C8102E var(--tw-gradient-to-position);
 }
 
 .hover\:text-brand-secondary:hover {
   --tw-text-opacity: 1;
-  color: rgb(132 0 50 / var(--tw-text-opacity, 1));
+  color: rgb(200 16 46 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-brand-tertiary:hover {
   --tw-text-opacity: 1;
-  color: rgb(229 149 0 / var(--tw-text-opacity, 1));
+  color: rgb(200 16 46 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover {
