@@ -15,12 +15,20 @@ const Header = ({ isMenuOpen, handleMenuOpen }) => {
         )}
       </div>
       <header className="w-full py-8 text-center">
-        <h1 className="text-3xl font-bold text-white md:text-5xl">
-          <Link to="/">
-            <span className="text-brand-primary rounded-l-lg rounded-r border bg-gray-50 px-2 tracking-wide">
-              NC
+        <h1 className="text-3xl font-bold text-white md:text-5xl flex  items-center">
+          <Link to="/" className="flex items-center">
+            {/* Image */}
+            <img
+              src="/image/NEU.png"
+              alt="NEU Logo"
+              style={{ height: '50px', marginRight: '8px' }} // Adjust size as needed
+              className="inline-block"
+            />
+            {/* Text */}
+            <span className="text-brand-secondary rounded-l-lg rounded-r border bg-gray-50 px-2 tracking-wide">
+              NEU
             </span>
-            <span className="ml-4">News</span>
+            <span className="ml-2">News</span>
           </Link>
         </h1>
       </header>

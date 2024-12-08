@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import TopicSelector from "./TopicSelector";
 import { HomeIcon } from "@heroicons/react/24/outline";
+import { UserIcon } from "@heroicons/react/24/outline";
 
 const Menu = ({ handleMenuOpen }) => (
   <nav className="pl-4 pr-20 pt-4">
@@ -19,6 +20,18 @@ const Menu = ({ handleMenuOpen }) => (
       </li>
       <li>
         <TopicSelector onSelect={handleMenuOpen} />
+      </li>
+      <li>
+        <div className="flex pb-2">
+          <Link
+            className="hover:text-brand-secondary text-lg hover:underline"
+            onClick={handleMenuOpen}
+            to="/"
+          >
+            <UserIcon className="inline-block h-6 pb-1 pr-4 text-gray-900" />
+            Profile
+          </Link>
+        </div>
       </li>
     </ul>
   </nav>

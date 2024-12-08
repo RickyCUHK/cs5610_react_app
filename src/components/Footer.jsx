@@ -4,7 +4,7 @@ const Footer = () => (
   <footer>
     <div className="pt-10 text-center text-xs text-gray-700">
       <Link
-        to="https://www.github.com/dku7/fe-nc-news"
+        to="https://github.com/RickyCUHK/cs5610_react_app"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-brand-secondary hover:underline"
@@ -13,7 +13,7 @@ const Footer = () => (
       </Link>
       {" | "}
       <Link
-        to="https://www.linkedin.com/in/dku7/"
+        to="https://www.linkedin.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-brand-secondary hover:underline"
