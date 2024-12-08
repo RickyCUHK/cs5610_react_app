@@ -49,7 +49,7 @@ const Login = () => {
               />
               <button
                 title="Login"
-                className="mb-2 mt-8 w-full rounded border bg-brand-primary px-4 py-2 text-white hover:bg-brand-tertiary"
+                className="mb-2 mt-8 w-full rounded border bg-brand-primary px-4 py-2 text-white hover:bg-brand-secondary"
                 type="submit"
               >
                 Login

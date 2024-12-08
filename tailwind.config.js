@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "brand-primary": "#002642",
-        "brand-secondary": "#840032",
-        "brand-tertiary": "#e59500",
+        "brand-primary": "#000000",
+        "brand-secondary": "#C8102E",
+        "brand-tertiary": "#A4804A",
       },
       fontFamily: {
         headings: ["Montserrat", ...defaultTheme.fontFamily.sans],
