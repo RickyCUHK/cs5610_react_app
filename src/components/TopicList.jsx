@@ -6,7 +6,7 @@ const TopicList = ({ onSelect }) => {
   const { topicsList } = useContext(TopicsListContext);
 
   return (
-    <ul>
+    <ul class = "text-white">
       {topicsList
         ? topicsList.map((topic) => (
             <TopicItem key={topic.slug} topic={topic} onSelect={onSelect} />

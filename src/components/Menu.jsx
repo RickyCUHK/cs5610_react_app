@@ -4,37 +4,37 @@ import { HomeIcon } from "@heroicons/react/24/outline";
 import { UserIcon } from "@heroicons/react/24/outline";
 
 const Menu = ({ handleMenuOpen }) => (
-  <nav className="pl-4 pr-20 pt-4">
-    <ul>
-      
-      <li>
-        <div className="flex pb-2">
+  <nav className="p-4">
+    <ul className="space-y-4 pl-6">
+      <li className="group">
+        <div className="flex items-center">
           <Link
-            className="hover:text-brand-secondary text-lg hover:underline"
+            className="flex items-center text-white text-lg font-semibold transition-transform transform group-hover:scale-110"
             onClick={handleMenuOpen}
             to="/"
           >
-            <HomeIcon className="inline-block h-6 pb-1 pr-4 text-gray-900" />
-            Home
+            <HomeIcon className="h-6 w-6 mr-3 group-hover:text-brand-secondary transition-colors" />
+            <span className="group-hover:underline group-hover:text-brand-secondary">Home</span>
           </Link>
         </div>
       </li>
-      <li>
-        <div className="flex pb-2">
+
+      <li className="group">
+        <div className="flex items-center">
           <Link
-            className="hover:text-brand-secondary text-lg hover:underline"
+            className="flex items-center text-white text-lg font-semibold transition-transform transform group-hover:scale-110"
             onClick={handleMenuOpen}
             to="/profile"
           >
-            <UserIcon className="inline-block h-6 pb-1 pr-4 text-gray-900" />
-            Profile
+            <UserIcon className="h-6 w-6 mr-3 group-hover:text-brand-secondary transition-colors" />
+            <span className="group-hover:underline group-hover:text-brand-secondary">Profile</span>
           </Link>
         </div>
       </li>
+
       <li>
         <TopicSelector onSelect={handleMenuOpen} />
       </li>
-      
     </ul>
   </nav>
 );

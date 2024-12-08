@@ -31,14 +31,14 @@ const MainContainer = ({ children, searchParams, article }) => {
 
   useLayoutEffect(() => {
     const showMenuOnly = (
-      <div className="bg-gray-100 col-span-2 row-start-2 border-r border-gray-200">
+      <div className="bg-gradient-to-b from-black via-gray-600 to-gray-100 col-span-2 row-start-2 border-r border-gray-200">
         <Menu isMenuOpen={isMenuOpen} handleMenuOpen={handleMenuOpen} />
       </div>
     );
 
     const showMenuAndContent = (
-      <>
-        <div className="bg-gray-100 col-span-1 row-start-2 hidden border-r border-gray-200 md:block">
+      <>1
+        <div className="bg-gradient-to-b from-black via-gray-600 to-gray-100 col-span-1 row-start-2 hidden border-r border-gray-200 md:block">
           <Menu handleMenuOpen={handleMenuOpen} />
         </div>
 
