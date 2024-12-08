@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-The current production version is deployed at: 
+The current production version is deployed at: https://6755f39f2c01e500085439d1--neunews.netlify.app/
 
 ## About
 
-backend: 
+Backend git repo：https://github.com/RickyCUHK/cs5610_backend
+Deployed at: https://cs5610-backend-32p7.onrender.com
 
 ## Installation
 
-- **Clone the repository**
-- **Install dependencies**: Navigate to the project directory and install the required Node.js dependencies using: `npm install`
-- **Run locally**: Start the application locally: `npm run dev`. Then open the provided `localhost` link
+`npm install`
+`npm run dev`
 
 ## Minimum Versions
 
