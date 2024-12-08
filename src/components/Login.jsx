@@ -10,9 +10,11 @@ const Login = () => {
 
   const defaultUser = {
     username: "cooljmessy",
-    name: "Peter Messy",
+    name: "Ricky Huang",
     avatar_url:
-      "https://vignette.wikia.nocookie.net/mrmen/images/1/1a/MR_MESSY_4A.jpg/revision/latest/scale-to-width-down/250?cb=20170730171002",
+      "https://avatars.githubusercontent.com/u/101099288?s=96&v=4",
+    email: "huang.riq@northeastern.edu",
+    phone: "123-456-7890"
   };
 
   const handleLogin = (event) => {

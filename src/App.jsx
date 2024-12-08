@@ -5,6 +5,7 @@ import Browse from "./components/Browse";
 import Article from "./components/Article";
 import Login from "./components/Login";
 import NotFound from "./components/NotFound";
+import Profile from "./components/Profile";
 import { SmallScreenContext } from "./contexts/SmallScreen";
 import { LoggedInUserContext } from "./contexts/LoggedInUser";
 
@@ -32,6 +33,7 @@ const App = () => {
       <Route path="/browse" element={<Browse />} />
       <Route path="/articles/:article_id" element={<Article />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/notfound" element={<NotFound />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
