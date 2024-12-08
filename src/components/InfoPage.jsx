@@ -15,7 +15,7 @@ const TeamInfoPage = () => {
             Riqi Huang - SEC 04 Fall 2024 [SJO-2-TR] NUID: 002833357
           </li>
           <li className="bg-white text-brand-primary py-4 px-6 rounded-md shadow-md font-semibold">
-            Zexi Chen - SEC 04 Fall 2024 [SJO-2-TR]
+            Zexi Chen - SEC 04 Fall 2024 [SJO-2-TR] NUID: 002844380
           </li>
         </ul>
       </section>
