@@ -6,6 +6,9 @@ The current production version is deployed at: https://6755f39f2c01e500085439d1-
 
 ## About
 
+This frontend app is built to bring a social network like Reddit to life. It lets users easily create, view, update, and delete articles, comments, and topics while exploring user profiles. With features like dynamic routing, responsive design, and a smooth, interactive interface, it’s designed to make the experience intuitive and enjoyable.
+
+## Git repo
 Backend git repo：https://github.com/RickyCUHK/cs5610_backend
 Deployed at: https://cs5610-backend-32p7.onrender.com
 
